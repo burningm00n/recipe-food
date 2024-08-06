@@ -1,0 +1,34 @@
+@media (min-width:1000px) {
+    body{
+        background-color: lightpink;
+    }
+    .container{
+        justify-items: center;
+        margin: 5rem auto;
+        max-width: 70%;
+        background-color: white;
+        border-radius: 3rem;
+    }
+    .hero-image{
+        /* padding: 4rem; */
+        width: 90%;
+        display: grid;
+        padding-block-start: 2rem;
+        justify-items: center;
+    }
+    .hero-image img{
+        /* max-width: 50%; */
+        border-radius: 2rem;
+    }
+    main{
+        padding-inline: 3rem;
+        padding-block-end: 1rem;
+    }
+    .contents_table div p:nth-child(1){
+        padding-inline-start: 3em;
+    }
+    .contents_table div p:nth-child(2){
+        /* padding-inline-end: 3em; */
+        justify-self: center;
+    }
+}
