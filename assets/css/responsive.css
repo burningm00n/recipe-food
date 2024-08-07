@@ -5,7 +5,7 @@
     .container{
         justify-items: center;
         margin: 5rem auto;
-        max-width: 70%;
+        /* max-width: 70%; */
         background-color: white;
         border-radius: 3rem;
     }
@@ -21,8 +21,8 @@
         border-radius: 2rem;
     }
     main{
-        padding-inline: 3rem;
-        padding-block-end: 1rem;
+        /* padding-inline: 3rem; */
+        /* padding-block-end: 1rem; */
     }
     .contents_table div p:nth-child(1){
         padding-inline-start: 3em;
